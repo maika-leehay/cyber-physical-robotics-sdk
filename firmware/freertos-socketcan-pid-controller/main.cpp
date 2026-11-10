@@ -42,7 +42,7 @@ int main() {
     using namespace mechatronics;
 
     std::cout << "=========================================================================\n";
-    std::cout << " Day 02: Real-Time FreeRTOS & SocketCAN Closed-Loop Motor Node\n";
+    std::cout << " Real-Time FreeRTOS & SocketCAN Closed-Loop Motor Node\n";
     std::cout << "=========================================================================\n";
 
     PIDController::Gains gains{ /*kp=*/ 3.2f, /*ki=*/ 1.4f, /*kd=*/ 0.09f };

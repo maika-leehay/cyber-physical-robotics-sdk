@@ -1,4 +1,4 @@
-﻿# Day 02: Real-Time FreeRTOS & SocketCAN Closed-Loop PID Motor Node
+﻿# Real-Time FreeRTOS & SocketCAN Closed-Loop PID Motor Node
 
 Deterministic 1 kHz motor position controller and CAN bus telemetry node written in modern **C++17** (`-Wall -Wextra -Werror`). Designed for industrial robotic joint actuators communicating over **Linux SocketCAN** (CAN 2.0B / CAN-FD) with priority-based task scheduling under **FreeRTOS**.
 

@@ -1,4 +1,4 @@
-﻿# Day 01: Microcontroller IMU Sensor Fusion Node (STM32/ESP32 HAL + C++17 Kalman Filter)
+﻿# Microcontroller IMU Sensor Fusion Node (STM32/ESP32 HAL + C++17 Kalman Filter)
 
 Real-time 6-DoF Inertial Measurement Unit (IMU) driver, state estimator, and CRC-8 protected telemetry node written in modern **C++17** (`-Wall -Wextra -Werror`). Designed for portable deployment on **STM32 (HAL I2C/SPI)**, **ESP32 (ESP-IDF)**, and host **Hardware-in-the-Loop (HIL)** continuous integration pipelines.
 
