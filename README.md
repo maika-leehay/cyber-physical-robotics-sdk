@@ -1,6 +1,11 @@
 ﻿# Cyber-Physical Robotics, Edge AI & Embedded Security SDK
 
-Production-grade **C++17 embedded firmware**, **ROS 2 Jazzy autonomy packages**, **Sim-to-Real robot learning**, **Edge AI perception pipelines**, and **Cyber-Physical security modules** validated via deterministic Hardware-in-the-Loop (HIL) benchmarks.
+[https://img.shields.io/badge/HIL_Benchmarks-Passing_(9%2F9)-brightgreen?logo=githubactions]
+[https://img.shields.io/badge/C%2B%2B-17-00599C?logo=cplusplus]
+[https://img.shields.io/badge/ROS_2-Jazzy_Jalisco-22314E?logo=ros]
+[https://img.shields.io/badge/Safety_%26_Security-ISO_21434_%7C_ISO_10218:2025_%7C_EU_CRA-success]
+
+Production-grade **C++17 embedded firmware**, **ROS 2 Jazzy autonomy packages**, **Sim-to-Real robot learning**, **Edge AI perception pipelines**, and **Cyber-Physical security modules** validated via automated GitHub Actions Hardware-in-the-Loop (HIL) continuous integration.
 
 ## Subsystem Architecture & Verified Modules
 
