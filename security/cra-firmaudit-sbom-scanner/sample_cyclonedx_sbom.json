@@ -1,0 +1,15 @@
+﻿{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "regulation": "EU Cyber Resilience Act (EU 2024/2847) Technical Documentation",
+    "tools": [{ "vendor": "Abdelmounaim Mekaoui", "name": "CRA-FirmAudit Pro", "version": "2.1.0" }],
+    "component": { "type": "firmware", "name": "sample-stm32-can-gateway-fw", "version": "2.4.0" }
+  },
+  "components": [
+    { "type": "operating-system", "name": "FreeRTOS-Kernel", "version": "11.1.0", "purl": "pkg:github/FreeRTOS/FreeRTOS-Kernel@11.1.0" },
+    { "type": "library", "name": "mbedtls", "version": "3.6.0", "purl": "pkg:github/Mbed-TLS/mbedtls@3.6.0" },
+    { "type": "library", "name": "mcuboot", "version": "2.1.0", "purl": "pkg:github/mcu-tools/mcuboot@2.1.0" }
+  ]
+}
