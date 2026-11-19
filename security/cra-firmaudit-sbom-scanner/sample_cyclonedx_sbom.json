@@ -1,15 +1,86 @@
-﻿{
+{
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
+  "serialNumber": "urn:uuid:929c466f-f65d-4c72-ba30-6e82147c421e",
   "version": 1,
   "metadata": {
-    "regulation": "EU Cyber Resilience Act (EU 2024/2847) Technical Documentation",
-    "tools": [{ "vendor": "Abdelmounaim Mekaoui", "name": "CRA-FirmAudit Pro", "version": "2.1.0" }],
-    "component": { "type": "firmware", "name": "sample-stm32-can-gateway-fw", "version": "2.4.0" }
+    "timestamp": "2026-11-19T07:12:57Z",
+    "component": {
+      "type": "firmware",
+      "name": "openevse_esp32_firmware"
+    }
   },
   "components": [
-    { "type": "operating-system", "name": "FreeRTOS-Kernel", "version": "11.1.0", "purl": "pkg:github/FreeRTOS/FreeRTOS-Kernel@11.1.0" },
-    { "type": "library", "name": "mbedtls", "version": "3.6.0", "purl": "pkg:github/Mbed-TLS/mbedtls@3.6.0" },
-    { "type": "library", "name": "mcuboot", "version": "2.1.0", "purl": "pkg:github/mcu-tools/mcuboot@2.1.0" }
-  ]
+    {
+      "bom-ref": "comp-2206e9f4-17c8-5a19-8016-de4b63690aca",
+      "type": "library",
+      "name": "bblanchon/ArduinoJson",
+      "version": "7.4.3",
+      "purl": "pkg:github/bblanchon/ArduinoJson@7.4.3"
+    },
+    {
+      "bom-ref": "comp-70e7569f-93dd-543d-9cd1-603a72a95d79",
+      "type": "library",
+      "name": "jeremypoulter/ArduinoMongoose",
+      "version": "1.2.1",
+      "purl": "pkg:github/jeremypoulter/ArduinoMongoose@1.2.1"
+    },
+    {
+      "bom-ref": "comp-e10c4748-d79a-52b6-8a8c-3ab9b4289b6c",
+      "type": "library",
+      "name": "jeremypoulter/ConfigJson",
+      "version": "0.0.9",
+      "purl": "pkg:github/jeremypoulter/ConfigJson@0.0.9"
+    },
+    {
+      "bom-ref": "comp-91fac646-8c05-5c22-88f3-5444a7703ca1",
+      "type": "library",
+      "name": "openevse/OpenEVSE",
+      "version": "0.0.24",
+      "purl": "pkg:github/openevse/OpenEVSE@0.0.24"
+    },
+    {
+      "bom-ref": "comp-01fcf85b-6d26-5cb4-93a6-691eff5c4821",
+      "type": "library",
+      "name": "jeremypoulter/ESPAL",
+      "version": "0.0.7",
+      "purl": "pkg:github/jeremypoulter/ESPAL@0.0.7"
+    },
+    {
+      "bom-ref": "comp-3af9b6c2-53c7-5c89-bce3-d03950aa728c",
+      "type": "library",
+      "name": "jeremypoulter/StreamSpy",
+      "version": "0.0.2",
+      "purl": "pkg:github/jeremypoulter/StreamSpy@0.0.2"
+    },
+    {
+      "bom-ref": "comp-aee24f48-f3a3-5378-99ca-d30757ea0403",
+      "type": "library",
+      "name": "jeremypoulter/MicroTasks",
+      "version": "0.0.4",
+      "purl": "pkg:github/jeremypoulter/MicroTasks@0.0.4"
+    },
+    {
+      "bom-ref": "comp-922935d2-8711-5c44-b176-e0a268a24654",
+      "type": "library",
+      "name": "matth-x/MicroOcppMongoose",
+      "version": "1.2.0",
+      "purl": "pkg:github/matth-x/MicroOcppMongoose@1.2.0"
+    },
+    {
+      "bom-ref": "comp-bd13a6c8-c840-5363-a3fa-cf27a3cb42d8",
+      "type": "library",
+      "name": "miguelbalboa/MFRC522",
+      "version": "1.4.12",
+      "purl": "pkg:github/miguelbalboa/MFRC522@1.4.12"
+    },
+    {
+      "bom-ref": "comp-6eae8c0c-1e4f-51f9-9c4e-187047f789ee",
+      "type": "library",
+      "name": "lvgl/lvgl",
+      "version": "8.3.9",
+      "purl": "pkg:github/lvgl/lvgl@8.3.9"
+    }
+  ],
+  "vulnerabilities": []
 }
